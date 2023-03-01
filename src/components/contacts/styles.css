@@ -1,0 +1,47 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+ul,li{
+    margin: 0;
+    /* padding- içeriğin etrafında boşluk oluşturmak için */
+    padding: 0;  
+    /* list-style-type -> Listelenmiş elemanların başındaki noktaları silme */
+    list-style-type: none;
+}
+.list{
+    margin: 15px 0;
+}
+.list > li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    /* padding- yukarıdan ve aşağıdan 5'ar pixellik boşluk */
+    padding: 5px 0;
+}
+.btn > button{
+    padding: 5px;
+    width: 60px;
+}
